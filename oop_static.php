@@ -1,4 +1,4 @@
-<?php ## Объекты в ООП
+<?php ## Objects getters\setters
 
 class ShopProduct {
     private  $title;
