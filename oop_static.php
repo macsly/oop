@@ -7,6 +7,9 @@ class ShopProduct {
     private $discount=0;
     protected $price;
 
+    const AVAILABLE = 5552;
+    const OUT_OF_STOCK = 1;
+
     public function __construct($title,$firstName,$mainName,$price)
     {
         $this->title = $title;
@@ -46,9 +49,8 @@ class ShopProduct {
         return $base;
     }
 
-
-
-
 }
+
+print ShopProduct::AVAILABLE;
 
 ?>
